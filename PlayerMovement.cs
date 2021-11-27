@@ -17,6 +17,8 @@ public class PlayerMovement : MonoBehaviour
     private float Horizontal;
     private bool IsFacingRight;
 
+    public float health = 3f;
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
