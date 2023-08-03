@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class PlayerMovement2D : MonoBehaviour
+public class PlayerController2D : MonoBehaviour
 {
     [Header("Player Data")] // Public Data
     [SerializeField] private float speed = 6f;
